@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_login_error.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_login_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\style_sr.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\style_sr.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_hello_admin.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_hello_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_start_page.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_start_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_question_data.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_question_data.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:/layout/activity_result_data.xml",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_result_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_result_data.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_result_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_results_test.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_results_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\style_sq.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\style_sq.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_test_results.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_test_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\edit_da.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\edit_da.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_test_index.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_test_index.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\activity_test_index1.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\activity_test_index1.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\add_da.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\add_da.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:/layout/activity_question_data.xml",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_question_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\style_lv.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\style_lv.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\view_da.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\view_da.xml"
+    },
+    {
+        "merged": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-42:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\jerem\\.gradle\\daemon\\7.3.3\\com.putri.aplikasipendeteksigayabesar.app-main-45:\\layout\\fragment_notifications.xml"
+    }
+]

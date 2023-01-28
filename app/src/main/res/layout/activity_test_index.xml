@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".TestIndex">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round_shape_four"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/timer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/txt_white"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan1"
+                android:textColor="@color/txt_white"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab1_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked1"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab1_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked1"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+            <TextView
+                android:id="@+id/timer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan2"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab2_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked2"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab2_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked2"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout2">
+
+            <TextView
+                android:id="@+id/timer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan3"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onRadioButtonClicked3"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab3_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked3"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab3_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked3"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout3">
+
+            <TextView
+                android:id="@+id/timer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan4"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab4_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked4"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab4_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked4"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout4">
+
+            <TextView
+                android:id="@+id/timer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan5"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab5_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked5"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab5_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked5"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout5">
+
+            <TextView
+                android:id="@+id/timer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan6"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab6_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked6"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab6_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked6"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout6">
+
+            <TextView
+                android:id="@+id/timer7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan7"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton7_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab7_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked7"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab7_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked7"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout7">
+
+            <TextView
+                android:id="@+id/timer8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan8"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton8_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:onClick="onRadioButtonClicked8"
+                    android:text="@string/jawab8_1"
+                    android:textColor="@color/txt_white"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:onClick="onRadioButtonClicked8"
+                    android:text="@string/jawab8_2"
+                    android:textColor="@color/txt_white"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout8">
+
+            <TextView
+                android:id="@+id/timer9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan9"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton9_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab9_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked9"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab9_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked9"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout9">
+
+            <TextView
+                android:id="@+id/timer10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan10"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton10_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab10_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked10"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab10_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked10"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout10">
+
+            <TextView
+                android:id="@+id/timer11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan11"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton11_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab11_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked11"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab11_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked11"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout11">
+
+            <TextView
+                android:id="@+id/timer12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan12"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton12_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab12_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked12"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab12_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked12"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout12">
+
+            <TextView
+                android:id="@+id/timer13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan13"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton13_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab13_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked13"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab13_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked13"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout13">
+
+            <TextView
+                android:id="@+id/timer14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan14"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton14_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab14_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked14"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab14_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked14"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout14">
+
+            <TextView
+                android:id="@+id/timer15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan15"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton15_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab15_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked15"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab15_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked15"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout15">
+
+            <TextView
+                android:id="@+id/timer16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan16"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton16_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab16_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked16"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab16_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked16"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout16">
+
+            <TextView
+                android:id="@+id/timer17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan17"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton17_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab17_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked17"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab17_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked17"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout17">
+
+            <TextView
+                android:id="@+id/timer18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan18"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton18_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab18_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked18"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab18_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked18"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout18">
+
+            <TextView
+                android:id="@+id/timer19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan19"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton19_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab19_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked19"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab19_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked19"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout19">
+
+            <TextView
+                android:id="@+id/timer20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan20"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton20_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab20_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked20"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab20_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked20"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout20">
+
+            <TextView
+                android:id="@+id/timer21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan21"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton21_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab21_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked21"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab21_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked21"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout21">
+
+            <TextView
+                android:id="@+id/timer22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan22"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton22_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab22_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked22"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab22_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked22"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout22">
+
+            <TextView
+                android:id="@+id/timer23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan23"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton23_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab23_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked23"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab23_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked23"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout23">
+
+            <TextView
+                android:id="@+id/timer24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan24"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton24_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab24_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked24"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab24_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked24"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout24">
+
+            <TextView
+                android:id="@+id/timer25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan25"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton25_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab25_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked25"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab25_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked25"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout25">
+
+            <TextView
+                android:id="@+id/timer26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan26"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton26_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab26_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked26"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab26_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked26"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout26">
+
+            <TextView
+                android:id="@+id/timer27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan27"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton27_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab27_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked27"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab27_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked27"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout27">
+
+            <TextView
+                android:id="@+id/timer28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan28"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton28_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab28_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked28"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab28_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked28"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout28">
+
+            <TextView
+                android:id="@+id/timer29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan29"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton29_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab29_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked29"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab29_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked29"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout29">
+
+            <TextView
+                android:id="@+id/timer30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan30"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton30_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab30_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked30"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab30_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked30"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout30">
+
+            <TextView
+                android:id="@+id/timer31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan31"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton31_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab31_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked31"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab31_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked31"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout31">
+
+            <TextView
+                android:id="@+id/timer32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan32"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton32_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab32_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked32"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab32_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked32"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout32">
+
+            <TextView
+                android:id="@+id/timer33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan33"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton33_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab33_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked33"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab33_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked33"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout33">
+
+            <TextView
+                android:id="@+id/timer34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan34"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton34_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab34_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked34"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab34_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked34"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout34">
+
+            <TextView
+                android:id="@+id/timer35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan35"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton35_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab35_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked35"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab35_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked35"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout35">
+
+            <TextView
+                android:id="@+id/timer36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan36"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton36_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab36_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked36"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab36_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked36"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout36">
+
+            <TextView
+                android:id="@+id/timer37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan37"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton37_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab37_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked37"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab37_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked37"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout37">
+
+            <TextView
+                android:id="@+id/timer38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan38"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton38_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab38_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked38"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab38_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked38"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout38">
+
+            <TextView
+                android:id="@+id/timer39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan39"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton39_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab39_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked39"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab39_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked39"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout39">
+
+            <TextView
+                android:id="@+id/timer40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan40"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton40_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab40_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked40"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab40_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked40"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout40">
+
+            <TextView
+                android:id="@+id/timer41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan41"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton41_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab41_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked41"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab41_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked41"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout41">
+
+            <TextView
+                android:id="@+id/timer42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan42"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton42_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab42_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked42"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab42_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked42"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout42">
+
+            <TextView
+                android:id="@+id/timer43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan43"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton43_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab43_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked43"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:height="40dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab43_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked43"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_shape_four"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout43">
+
+            <TextView
+                android:id="@+id/timer44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/timer45"
+                android:textColor="@color/txt_white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/pertanyaan44"
+                android:textColor="@color/txt_white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton44_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab44_1"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked44"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/txt_white"
+                    android:text="@string/jawab44_2"
+                    android:textColor="@color/txt_white"
+                    android:onClick="onRadioButtonClicked44"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_white"
+            android:text="@string/finish"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout44"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/round_shape"
+            android:layout_marginVertical="70dp"/>
+        
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
