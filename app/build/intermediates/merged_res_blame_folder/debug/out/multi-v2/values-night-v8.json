@@ -4,7 +4,7 @@
             "outputFile": "com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jerem\\.gradle\\caches\\transforms-3\\48e56c303e0d31753f46166d8e551339\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/home/xz/.gradle/caches/transforms-3/48e56c303e0d31753f46166d8e551339/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jerem\\.gradle\\caches\\transforms-3\\bfec8dfcaf6c34e166a516bbd7a3f400\\transformed\\material-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/home/xz/.gradle/caches/transforms-3/bfec8dfcaf6c34e166a516bbd7a3f400/transformed/material-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Sumber\\mobile\\joki\\PendeteksiGayaBelajar\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "/home/xz/Skills/programming/mobile/java/pendeteksi_gaya_belajar/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

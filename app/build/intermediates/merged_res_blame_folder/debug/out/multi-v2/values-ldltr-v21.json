@@ -4,7 +4,7 @@
             "outputFile": "com.putri.aplikasipendeteksigayabesar.app-mergeDebugResources-41:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jerem\\.gradle\\caches\\transforms-3\\48e56c303e0d31753f46166d8e551339\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "/home/xz/.gradle/caches/transforms-3/48e56c303e0d31753f46166d8e551339/transformed/appcompat-1.5.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1251,11 +1251,11 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color bg
 color bg_asset
 color bg_form
 color bg_input

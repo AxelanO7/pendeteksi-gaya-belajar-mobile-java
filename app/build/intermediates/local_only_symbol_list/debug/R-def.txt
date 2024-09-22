@@ -4,7 +4,7 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
-color bg
+color background
 color bg_asset
 color bg_form
 color bg_input
