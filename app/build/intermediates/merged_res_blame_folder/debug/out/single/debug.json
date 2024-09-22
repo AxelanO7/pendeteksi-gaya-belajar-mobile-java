@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_logout.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/logout.png"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_style_sq.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/style_sq.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/navigation_mobile_navigation.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_view_da.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/view_da.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_back_arrow_black.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/back_arrow_black.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_login2.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/login2.png"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_login_error.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_login_error.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_login_error.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_login_error.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_add.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/add.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_index.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_index.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_results.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_results.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_fragment_notifications.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/font_seaweed_script.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/font/seaweed_script.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_search.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/search.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_fragment_dashboard.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_start_page.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_start_page.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_round_shape_two.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/round_shape_two.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_start_page.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_start_page.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_round_shape_three.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/round_shape_three.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_round_shape_five.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/round_shape_five.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_results.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_results.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_warning.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/warning.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_hello_admin.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_hello_admin.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_style_sr.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/style_sr.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_hello_admin.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_hello_admin.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_style_lv.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/style_lv.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_result_data.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_result_data.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_style_sq.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/style_sq.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_result_data.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_result_data.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_round_shape_four.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/round_shape_four.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_index1.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_index1.xml"
+    },
+    {
+        "merged": "com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_question_data.xml.flat",
+        "source": "com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_question_data.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_round_shape.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/round_shape.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_login1.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/login1.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_question_data.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_question_data.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_fragment_home.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_style_sr.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/style_sr.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_index.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_index.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/drawable_back_arrow.png.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/drawable/back_arrow.png"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_add_da.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/add_da.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_activity_test_index1.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/activity_test_index1.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/layout_edit_da.xml.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/layout/edit_da.xml"
+    },
+    {
+        "merged": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/xz/.gradle/daemon/7.3.3/com.putri.aplikasipendeteksigayabesar.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]
