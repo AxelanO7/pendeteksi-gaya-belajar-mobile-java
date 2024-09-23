@@ -65,8 +65,7 @@ public class DataHelper extends SQLiteOpenHelper {
                 "(41, '41', '41. Ide melakukan tugas secara berkelompok, yang melibatkan seluruh anggota kelas dalam kelompok', 'Menarik bagi saya', 'Tidak menarik bagi saya', 'Sekuensial'), " +
                 "(42, '42', '42. Ketika saya mengerjakan soal matematika yang panjang', 'Saya cenderung untuk mengulang semua Langkah, kemudian memeriksa pekerjaan saya dengan hati-hati', 'Saya merasa lelah memeriksa pekerjaan saya, sehingga saya memaksakan diri untuk melakukannya', 'Sekuensial'), " +
                 "(43, '43', '43. Saya cenderung untuk menggambarkan tempat yang pernah saya kunjungi', 'Dengan mudah dan cukup akurat', 'Dengan susah payah dan tanpa banyak detail', 'Sekuensial'), " +
-                "(44, '44', '44. Ketika memecahkan masalah dalam kelompok, saya cenderung', 'Memikirkan langkah-langkah untuk mencapai solusi', 'Memikirkan kemungkinan konsekuensi dari pelaksanaan solusi tersebut', 'Sekuensial')" +
-                "";
+                "(44, '44', '44. Ketika memecahkan masalah dalam kelompok, saya cenderung', 'Memikirkan langkah-langkah untuk mencapai solusi', 'Memikirkan kemungkinan konsekuensi dari pelaksanaan solusi tersebut', 'Sekuensial')";
         db.execSQL(sql);
         sql2 = "INSERT INTO hasil (no, hasil_aktif, hasil_sensorik, hasil_visual, hasil_sekuensial, nama) VALUES (1, '25%', '25%', '25%', '25%', 'user'), " +
                 "(2, '25%', '25%', '25%', '25%', 'user');";
