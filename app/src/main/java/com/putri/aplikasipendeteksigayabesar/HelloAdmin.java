@@ -1,10 +1,10 @@
 package com.putri.aplikasipendeteksigayabesar;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HelloAdmin extends AppCompatActivity {
 
@@ -12,9 +12,7 @@ public class HelloAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_admin);
-        Button Soal = findViewById(R.id.button);
-        Button Hasil = findViewById(R.id.button2);
-        Button Logout = findViewById(R.id.button3);
+        Button Soal = findViewById(R.id.button), Hasil = findViewById(R.id.button2), Logout = findViewById(R.id.button3);
 
         Soal.setOnClickListener(view -> {
             Intent intent = new Intent(HelloAdmin.this, QuestionData.class);
