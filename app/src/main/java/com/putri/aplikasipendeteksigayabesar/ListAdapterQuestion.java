@@ -15,12 +15,7 @@ import java.util.Arrays;
 public class ListAdapterQuestion extends ArrayAdapter {
 
     private final Activity context;
-    private final String[] d_no;
-    private final String[] d_no_urut;
-    private final String[] d_question;
-    private final String[] d_opt1;
-    private final String[] d_opt2;
-    private final String[] d_dimen;
+    private final String[] d_no, d_no_urut, d_question, d_opt1, d_opt2, d_dimen;
 
     static int[] d_aktif;
     static int[] d_sensorik;
