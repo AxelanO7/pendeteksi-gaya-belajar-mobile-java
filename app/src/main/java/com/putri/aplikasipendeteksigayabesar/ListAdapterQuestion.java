@@ -17,10 +17,7 @@ public class ListAdapterQuestion extends ArrayAdapter {
     private final Activity context;
     private final String[] d_no, d_no_urut, d_question, d_opt1, d_opt2, d_dimen;
 
-    static int[] d_aktif;
-    static int[] d_sensorik;
-    static int[] d_visual;
-    static int[] d_sekuensial;
+    static int[] d_aktif, d_sensorik, d_visual, d_sekuensial;
 
     public static int d_aktif_total;
     public static double percent_d_aktif;
@@ -34,8 +31,8 @@ public class ListAdapterQuestion extends ArrayAdapter {
     private static double percentLeft;
     private static double plusPercent;
 
-    int [] checked1;
-    int [] checked2;
+    int[] checked1;
+    int[] checked2;
     int d_no_position;
 
     public ListAdapterQuestion(Activity context, String[] d_no, String[] d_no_urut, String[] d_question, String[] d_opt1, String[] d_opt2, String[] d_dimen) {
@@ -91,33 +88,31 @@ public class ListAdapterQuestion extends ArrayAdapter {
         opt1Text.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if ((d_dimen[position].equals("Aktif")) && checked1[position] == 0){
+                if ((d_dimen[position].equals("Aktif")) && checked1[position] == 0) {
                     d_aktif_total += 1;
                     d_aktif[position] = 1;
                     checked1[position] = 1;
-                }
-                else if ((d_dimen[position].equals("Aktif")) && checked1[position] == 1){
+                } else if ((d_dimen[position].equals("Aktif")) && checked1[position] == 1) {
                     d_aktif[position] = 1;
-                }
-                else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 0)){
+                } else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 0)) {
                     d_sensorik[position] = 1;
                     d_sensorik_total += 1;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 1)) {
                     d_sensorik[position] = 1;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 0)){
+                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 0)) {
                     d_visual[position] = 1;
                     d_visual_total += 1;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 1)) {
                     d_visual[position] = 1;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 0)){
+                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 0)) {
                     d_sekuensial[position] = 1;
                     d_sekuensial_total += 1;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 1)) {
                     d_sekuensial[position] = 1;
                     checked1[position] = 1;
                 }
@@ -132,37 +127,35 @@ public class ListAdapterQuestion extends ArrayAdapter {
         opt2Text.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if ((d_dimen[position].equals("Aktif")) && checked1[position] == 1){
+                if ((d_dimen[position].equals("Aktif")) && checked1[position] == 1) {
                     d_aktif_total -= 1;
                     d_aktif[position] = 0;
                     checked1[position] = 0;
                     checked2[position] = 1;
-                }
-                else if ((d_dimen[position].equals("Aktif")) && checked2[position] == 1){
+                } else if ((d_dimen[position].equals("Aktif")) && checked2[position] == 1) {
                     d_aktif[position] = 0;
-                }
-                else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Sensorik")) && (checked1[position] == 1)) {
                     d_sensorik[position] = 0;
                     d_sensorik_total -= 1;
                     checked1[position] = 1;
                     checked2[position] = 1;
-                } else if ((d_dimen[position].equals("Sensorik")) && (checked2[position] == 1)){
+                } else if ((d_dimen[position].equals("Sensorik")) && (checked2[position] == 1)) {
                     d_sensorik[position] = 0;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Visual")) && (checked1[position] == 1)) {
                     d_visual[position] = 0;
                     d_visual_total -= 1;
                     checked1[position] = 1;
                     checked2[position] = 1;
-                } else if ((d_dimen[position].equals("Visual")) && (checked2[position] == 1)){
+                } else if ((d_dimen[position].equals("Visual")) && (checked2[position] == 1)) {
                     d_visual[position] = 0;
                     checked1[position] = 1;
-                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 1)){
+                } else if ((d_dimen[position].equals("Sekuensial")) && (checked1[position] == 1)) {
                     d_sekuensial[position] = 1;
                     d_sekuensial_total -= 1;
                     checked1[position] = 1;
                     checked2[position] = 1;
-                } else if ((d_dimen[position].equals("Sekuensial")) && (checked2[position] == 1)){
+                } else if ((d_dimen[position].equals("Sekuensial")) && (checked2[position] == 1)) {
                     d_sekuensial[position] = 1;
                     checked1[position] = 1;
                 }
@@ -172,14 +165,14 @@ public class ListAdapterQuestion extends ArrayAdapter {
         return testSingleView;
     }
 
-//    logic total 4 dimen
+    //    logic total 4 dimen
     public static void totalDimen() {
         percentTotalDimen(d_aktif_total, d_sensorik_total, d_visual_total, d_sekuensial_total);
     }
 
-//    logic merubah nilai menjadi persen
+    //    logic merubah nilai menjadi persen
     public static void percentTotalDimen(int d_aktif_total, int d_sensorik_total, int d_visual_total, int d_sekuensial_total) {
-        switch (d_aktif_total){
+        switch (d_aktif_total) {
             case 11:
                 percent_d_aktif = 25;
                 break;
@@ -216,10 +209,11 @@ public class ListAdapterQuestion extends ArrayAdapter {
             case 0:
                 percent_d_aktif = 0;
                 break;
-            default: percent_d_aktif = 0;
-            }
+            default:
+                percent_d_aktif = 0;
+        }
 
-        switch (d_sensorik_total){
+        switch (d_sensorik_total) {
             case 11:
                 percent_d_sensorik = 25;
                 break;
@@ -256,10 +250,11 @@ public class ListAdapterQuestion extends ArrayAdapter {
             case 0:
                 percent_d_sensorik = 0;
                 break;
-            default: percent_d_sensorik = 0;
-            }
+            default:
+                percent_d_sensorik = 0;
+        }
 
-        switch (d_visual_total){
+        switch (d_visual_total) {
             case 11:
                 percent_d_visual = 25;
                 break;
@@ -296,10 +291,11 @@ public class ListAdapterQuestion extends ArrayAdapter {
             case 0:
                 percent_d_visual = 0;
                 break;
-            default: percent_d_visual = 0;
-            }
+            default:
+                percent_d_visual = 0;
+        }
 
-        switch (d_sekuensial_total){
+        switch (d_sekuensial_total) {
             case 11:
                 percent_d_sekuensial = 25;
                 break;
@@ -336,8 +332,9 @@ public class ListAdapterQuestion extends ArrayAdapter {
             case 0:
                 percent_d_sekuensial = 0;
                 break;
-            default: percent_d_sekuensial = 0;
-            }
+            default:
+                percent_d_sekuensial = 0;
+        }
 
 //            logic 25%
         percentLeft = 100 - percent_d_aktif - percent_d_sensorik - percent_d_visual - percent_d_sekuensial;
